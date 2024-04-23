@@ -1,0 +1,7 @@
+{
+    "copyright": "2024 flying dog software",
+    "components": [{
+        "name": "Gradient Editor",
+        "tag": "fds-gradient-editor"
+    }]
+}
