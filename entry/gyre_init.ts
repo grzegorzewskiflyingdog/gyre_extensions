@@ -4,5 +4,6 @@ console.log("fds-gradient-editor load now")
 
    var script = document.createElement("script");
 script.async = false;
-script.src ="/extensions/gyre-extensions/node_modules/@fds-components/fds-gradient-editor/dist/fds-gradient-editor.ts";
+
+script.src =window.document.gyre.serverName+"/extensions/gyre-extensions/node_modules/@fds-components/fds-gradient-editor/dist/fds-gradient-editor.ts";
 document.head.appendChild(script);
