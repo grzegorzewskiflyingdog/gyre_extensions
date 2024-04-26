@@ -14,6 +14,6 @@ import json
 
 WEB_DIRECTORY = "entry"
 DEFAULT_USER = "guest"
-# NODE_CLASS_MAPPINGS = {}
+NODE_CLASS_MAPPINGS = {}
 __all__ = ['NODE_CLASS_MAPPINGS']
 version = "V1.0.0"
