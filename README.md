@@ -30,7 +30,7 @@ The main Gyre application loads these extensions through an initialization scrip
 4. Include files like `gyre_ui_components.json`, `layers_components.json`, or `brushes.json` in the `gyre_entry` folder.
 5. Install node packages necessary for your custom tags.
 
-### Configuration of UI elements ( `gyre_ui_components.json`)
+### Configuration of UI elements (`gyre_ui_components.json`)
 
 Check out our example that provides two custom UI elements: [Insert URL here]
 
@@ -50,8 +50,8 @@ This file should define:
 Using split_value_num=2 and split_value_type=number, the above example will provide:
 
 - A field "gradient" with the value string "0;1.0".
-- Fields "gradient_0" with the float value 0.
-- Fields "gradient_1" with the float value 1.0.
+- Field "gradient_0" with the float value 0.
+- Field "gradient_1" with the float value 1.0.
 - These fields are utilized in Gyre mappings.
 
 
