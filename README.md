@@ -56,3 +56,12 @@ Using split_value_num=2 and split_value_type=number, the above example will prov
 
 
 Feel free to adjust the example link and any specifics to better match your actual content.
+
+#### Environment 
+
+In globalThis.gyre an extension can have access to a global extension API:
+
+- `loadScript` method for loading scripts
+- `paletteValues` access to UI values of the tools (e.g. inpainting brush size).  
+- `currentLayer` for access to the selected layer. 
+- `layers` layer data structure (can have groups/subfolders)
