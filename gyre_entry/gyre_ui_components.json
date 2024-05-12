@@ -26,7 +26,7 @@
         "label": { "type": "text", "default": "Gradient", "label": "Label" },
         "default": {
           "type": "text",
-          "default": "0;255",
+          "default": "0;1.0",
           "label": "Default value"
         },
         "from_color": {
@@ -35,8 +35,9 @@
           "label": "From color"
         },
         "to_color": { "type": "text", "default": "grey", "label": "To color" },
-        "start": { "type": "text", "default": "0", "label": "Min" },
-        "end": { "type": "text", "default": "255", "label": "Max" },
+        "min": { "type": "text", "default": "0", "label": "Min" },
+        "max": { "type": "text", "default": "1.0", "label": "Max" },
+        "value_type": { "type": "text", "default": "float", "label": "Type" },
         "num_handles": {
           "type": "text",
           "default": "two",
