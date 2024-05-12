@@ -30,7 +30,7 @@ The main Gyre application loads these extensions through an initialization scrip
 4. Include files like `gyre_ui_components.json`, `layers_components.json`, or `brushes.json` in the `gyre_entry` folder.
 5. Install node packages necessary for your custom tags.
 
-### `gyre_ui_components.json`
+### Configuration of UI elements ( `gyre_ui_components.json`)
 
 Check out our example that provides two custom UI elements: [Insert URL here]
 
