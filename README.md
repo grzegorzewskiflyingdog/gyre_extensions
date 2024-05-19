@@ -64,4 +64,5 @@ In globalThis.gyre an extension can have access to a global extension API:
 - `loadScript` method for loading scripts
 - `paletteValues` access to UI values of the tools (e.g. inpainting brush size).  
 - `currentLayer` for access to the selected layer. 
-- `layers` layer data structure (can have groups/subfolders)
+- `layers` layer data structure (can have groups/subfolder)
+- `formElements` form elements of open form including current values
